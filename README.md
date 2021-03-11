@@ -27,4 +27,4 @@ Gathering data is the first step in data wrangling. Before gathering, we have no
 So our wrangling process let the data easy access and analysis using these steps:
 1. Gathering data: obtaining data and importing that data into a programming environment.
 2. assessing data: assess data for quality and tidiness issues.
-3. cleaning data: defined cleaning tasks, convert those definitions to code,test the dataset, visually or with code
+3. cleaning data: defined cleaning tasks, convert those definitions to code,test the dataset, visually or with code.

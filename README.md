@@ -10,7 +10,7 @@ Data wrangling is a core skill that everyone who works with data should be famil
 ## Gather
 Gathering data is the first step in data wrangling. Before gathering, we have no data, and after it, we do. my gathering efforts are divided into three steps: 
 1. Getting data from an existing file: I have a flat file twitter_archive_enhanced.csv which is a comma separated value, that I pointed on it,then clicked and downloaded it, then I read it in a Pandas dataframe.
-2.Downloading a file from the internet: I have a link to a flat file on the internet, I downloaded it programmatically using the requests library.
+2. Downloading a file from the internet: I have a link to a flat file on the internet, I downloaded it programmatically using the requests library.
 3. Querying an API :After my application to have an account as a developer on Twitter was approved, I query the twitter API for each tweet in the twitter archive file using tweepy library (likes count,retweets count, tweet user name, and the user favorited ), and I stored it in a list of dictionary. and I guaged the time for the query from the twitter API. then I dumped it to tweet_json.txt file, that I used it then to load these data directly to the jupyter notebook using json library.
 
 ## Assess
